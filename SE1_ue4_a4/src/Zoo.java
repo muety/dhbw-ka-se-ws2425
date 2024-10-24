@@ -3,14 +3,15 @@ public class Zoo {
 	
 	public static void main(String[] args) {
 		
-		// Ändern Sie die Anzahl der Gehege entsprechend ab 
-		int anzGehege = 1;
+		// ï¿½ndern Sie die Anzahl der Gehege entsprechend ab 
+		int anzGehege = 2;
 		Tier[] alleTiere = new Tier[anzGehege];
 		
 		
 		
-		// Fügen Sie eine Instanz ihrer Unterklasse an eine passende Stelle im Array hinzu 
+		// Fï¿½gen Sie eine Instanz ihrer Unterklasse an eine passende Stelle im Array hinzu 
 		alleTiere[0] = new Loewe("Alex");
+		alleTiere[1] = new Eisbaer("Thomas");
 		
 		
 		
